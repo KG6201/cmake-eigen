@@ -3,7 +3,7 @@ project(dummy NONE)
 if(CMAKE_SYSTEM_NAME MATCHES "Darwin")
     set(CMAKE_CXX_COMPILER g++-14)
 endif()
-project(benchmark_eigen CXX)
+project(cmake-eigen CXX)
 set(CMAKE_CXX_STANDARD 17)
 
 include(CMakePrintHelpers)
